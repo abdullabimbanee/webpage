@@ -1,10 +1,42 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>this is home page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio mollitia alias maxime autem eius. Id modi dolores aliquam autem!</p>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Health Monitoring Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Health Monitoring Dashboard</h1>
+  </header>
+
+  <main class="dashboard">
+    <div class="card" id="heart-rate">
+      <h2>Heart Rate</h2>
+      <p><span id="heartRateValue">--</span> bpm</p>
+    </div>
+
+    <div class="card" id="blood-pressure">
+      <h2>Blood Pressure</h2>
+      <p><span id="bpValue">--/--</span> mmHg</p>
+    </div>
+
+    <div class="card" id="oxygen-level">
+      <h2>Oxygen Saturation</h2>
+      <p><span id="oxygenValue">--</span> %</p>
+    </div>
+
+    <div class="card" id="temperature">
+      <h2>Body Temperature</h2>
+      <p><span id="tempValue">--</span> °C</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Health Monitor Inc.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
